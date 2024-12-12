@@ -1,0 +1,54 @@
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project:hover {
+    background-color: oldlace;
+    border: 3px solid gold;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.projects {
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
+
+.project {
+    border: 3px solid gray;
+    border-radius: 15px;
+    max-width: 300px;
+    height: auto;
+    display: inline-block;
+    margin: 10px;
+    padding: 0.3rem 0.5rem;
+    background-color:wheat
+}
+
+.description {
+    text-align: left;
+    font-size: 17px;
+    line-height: 1.5;
+    color: #333;
+    list-style-type: square;
+}
+
+.image-content {
+    width: 120px; /* Fixed width to align images */
+    display:inline-table;
+    justify-content: center;
+}
+
+.image-project img {
+    max-width: 170px; /* Ensure the image fits within the container */
+    height: auto;
+}
+
+.image-github img {
+    width: 150px; /* Ensure the image fits within the container */
+    height: auto;
+    margin-top: 10px;
+}
+

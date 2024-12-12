@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahmoud Fawzy</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/contact.css">
+</head>
+<body>
+    <header>
+        <div class="nav-container">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li class="active"><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form action="https://formspree.io/f/xovqzdav" method="POST">
+                <div class="form-container">
+                    <div class="input-item">
+                        <label class="input-label" for="name">Name</label>
+                        <input class="input-field" type="text" id="name" name="name" required>
+                    </div>
+                    <div class="input-item">
+                        <label class="input-label" for="email">Email</label>
+                        <input class="input-field" type="email" id="email" name="email" required>
+                    </div>
+                    <div class="input-item">
+                        <label class="input-label" for="subject">Subject</label>
+                        <input class="input-field" type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="input-item">
+                        <label class="input-label" for="message">Message</label>
+                        <textarea class="input-field" id="message" name="message" required></textarea>
+                    </div>
+                    <div class="button-container">
+                        <button type="submit" class="btn">Send</button>
+                    </div>
+                </div>
+            </form>
+            
+            <div class="social-links">
+                    <a href="https://www.linkedin.com/in/mft1998/"><img class="social-image" src="images/linkedineditgold.png" alt="connect with Linkedin"/></a>
+                    <a href="mailto:1998mft1998@gmail.com"><img class="social-image" src="images/gmaileditgold.png" alt="connect with Gmail"/></a>
+                    <a href="http://wa.me/+201123398770"><img class="social-image" src="images/whatsappeditgold.png" alt="Connect with Whatsapp"/></a>
+                    <a href="https://github.com/MahmoudFawzyAOE2"><img class="social-image" src="images/githubeditgold.png" alt="Connect with Github"/></a>
+                    <a href="https://www.upwork.com/freelancers/~0103f88f5c42b06d5b"><img class="social-image" src="images/upworkeditgold.png" alt="Connect with Upwork"/></a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 John Doe. All rights reserved.</p>
+    </footer>
+    <script src="scripts/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+section {
+    justify-content: center;
+    text-align: center;
+}
+
+.profile-table {
+    display:inline-block;
+    grid-template-columns: 2fr;
+    max-width: 600px;
+}
+
+.profile-item {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid gold;
+}
+
+.text-content {
+    text-align: left;
+    width: 450px;
+}
+
+.image-content {
+    width: 120px; /* Fixed width to align images */
+    display:inline-table;
+    justify-content: center;
+}
+
+.image-content img {
+    max-width: 170px; /* Ensure the image fits within the container */
+    height: auto;
+    aspect-ratio: 2 / 1;
+}
+
+.cv {
+    margin-bottom: 2rem;
+    text-align: center; 
+}
+
