@@ -21,37 +21,36 @@ header {
 }
 
 nav ul {
-    list-style: none;
-    padding: 0;
-    
+    padding: 0;   
 }
 
 nav ul li {
     display: inline-block;
     margin: 10px;
-    padding: 0.3rem 0.5rem;
-    background-color:goldenrod
 }
 
 nav ul li a {
-    text-decoration:darkgreen;
+    text-decoration: none;
     color: #333;
     font-weight: bold;
+    font-size: large;
+    transition-duration: 0.2s;
 }
 
 nav ul li a:hover {
     color:white;
+    text-shadow: 0 0 40px black;
+}
+
+.nav-container ul li.active a {
+    color:#007bff; /* Different color for active link */
+    font-weight: bold; /* Bold text for active link */
+    border-bottom: 2px solid #007bff; /* Add bottom border to active link */
+    border-top: 2px solid #007bff; 
 }
 
 h2 {
     align-self: center;
-}
-
-.nav-container ul li.active a {
-    color: #007bff; /* Different color for active link */
-    font-weight: bold; /* Bold text for active link */
-    border-bottom: 2px solid #007bff; /* Add bottom border to active link */
-    border-top: 2px solid #007bff; 
 }
 
 .hero {
@@ -90,15 +89,18 @@ section {
 #services ul li {
     padding: 5px 0; /* Optional: Add some padding for better spacing */
 }
+
 .btn {
     padding: 0.8rem 1rem;
     background:gold;
-    color: #000000;
+    color: black;
     border-radius: 5px;
     transition-duration: 0.2s;    
     text-decoration: none;
     font-weight: bold;
-
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    align-self: center; /* Centers the button */
 }
 
 .btn:hover {
