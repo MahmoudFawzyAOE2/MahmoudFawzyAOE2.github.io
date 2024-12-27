@@ -1,10 +1,28 @@
+html{
+    height: 100%;
+}
+
 body {
+    height: 100%;
     font-family: Arial, sans-serif;
     line-height: 1.5;
     margin: 0;
     padding: 0;
     color: #333;
-    background-color:beige
+    
+    background: 
+    linear-gradient(
+        90deg in oklch,
+        #dcdba1 0%,
+        #f3f2b8 20%,
+        #f3f2b8 80%,
+        #dcdba1 100% 
+      );
+}
+
+main:after {
+    display: block;
+    height: 100px;
 }
 
 header {
@@ -53,41 +71,8 @@ h2 {
     align-self: center;
 }
 
-.hero {
-    max-width: 800px;
-    margin: auto;
-    padding: 1rem;
-    text-align: center;
-}
-
-.hero-image {
-    border-radius: 9%;
-    width: 100px;
-    aspect-ratio: 9 / 11;
-}
-
-.tagline {
-    font-size: 1.2rem;
-    color: #666;
-}
-
-.intro {
-    font-size: 1rem;
-    color: #777;
-}
-
 section {
-    padding: 2rem 0;
     text-align: center;
-}
-
-#services ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-#services ul li {
-    padding: 5px 0; /* Optional: Add some padding for better spacing */
 }
 
 .btn {
@@ -98,8 +83,11 @@ section {
     transition-duration: 0.2s;    
     text-decoration: none;
     font-weight: bold;
-    margin-bottom: 2rem;
-    margin-top: 2rem;
+    font-size: large;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
     align-self: center; /* Centers the button */
 }
 
@@ -112,28 +100,13 @@ section {
 }
 
 footer {
-    position: absolute;
+    position: fixed;
     bottom: 0;
+    left: 0;
+    right: 0;
     width: 100%;
-    height: 50px;
-    bottom: 0;
+    padding: 0.1px;   
     background: gold;
     color: black;
     text-align: center;
-    z-index: 1000;
-
 }
-
-/* Trick: */
-body {
-    position: relative;
-  }
-  
-  body::after {
-    content: '';
-    display: block;
-    height: 50px;
-    /* Set same as footer's height */
-  }
-
-

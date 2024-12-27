@@ -7,11 +7,13 @@ section {
     display: flex;
     flex-direction: column;
     max-width:fit-content;
-    margin: 0 auto;
-    
+    margin:  0 auto ;  
+    padding-bottom: 3rem;
 }
 
 .profile-item {
+    padding-top: 5px;
+    padding-bottom: 5px;
     display: flex;
     flex-direction: column; /* Change to column for small screens */
     align-items: center;
