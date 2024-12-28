@@ -22,7 +22,7 @@ section {
 
 .text-content {
     text-align: center; /* Center text on small screens */
-    max-width: 500px;
+    max-width: 300px;
 }
 
 .image-content {
