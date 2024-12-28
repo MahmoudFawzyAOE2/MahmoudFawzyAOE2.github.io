@@ -6,8 +6,7 @@ section {
 
 .services {
     padding: 20px;
-    margin-bottom: 40px;
-    border-radius: 10px;
+    margin-bottom: 50px;
 }
 
 .service {
@@ -17,7 +16,7 @@ section {
     height: auto;
     display: inline-block;
     margin: 20px;
-    padding: 0.2rem 0.5rem;
+    padding: 0.2rem 0.2rem;
     background-color:wheat
 }
 
