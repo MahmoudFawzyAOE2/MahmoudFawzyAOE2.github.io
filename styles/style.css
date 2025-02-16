@@ -7,16 +7,14 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.5;
     margin: 0;
-    padding: 0;
     color: #333;
-    
     background: 
     linear-gradient(
-        90deg in oklch,
-        #dcdba1 0%,
-        #f3f2b8 20%,
-        #f3f2b8 80%,
-        #dcdba1 100% 
+        90deg,
+        #c9c675 00%,
+        #f3f2b8 10%,
+        #f3f2b8 90%,
+        #c9c675 100% 
       );
 }
 
@@ -26,7 +24,8 @@ main:after {
 }
 
 header {
-    background:gold;
+    background-color: rgba(255, 215, 0, 0.6); /* gold with partial transparency */
+    
     text-align: center;
     position: sticky;
     width: 100%;
@@ -71,6 +70,14 @@ h2 {
     align-self: center;
 }
 
+.page-title {
+    width: 50%; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    text-align: center; /* optional, if you also want the text centered */
+}
+
 section {
     text-align: center;
 }
@@ -100,7 +107,7 @@ section {
 }
 
 footer {
-    position: fixed;
+    position: relative;
     bottom: 0;
     left: 0;
     right: 0;
