@@ -1,4 +1,5 @@
 html{
+    user-select: none;
     height: 100%;
 }
 
@@ -61,7 +62,6 @@ nav ul li a:hover {
 }
 
 .nav-container ul li.active a {
-    user-select: none;
     color:#007bff; /* Different color for active link */
     font-weight: bold; /* Bold text for active link */
     border-bottom: 2px solid #007bff; /* Add bottom border to active link */
