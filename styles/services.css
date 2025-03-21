@@ -5,8 +5,8 @@ section {
 }
 
 .services {
-    padding: 20px 0px 10px 0px;
-    margin-bottom: 50px;
+    max-width: 1200px;
+    padding: 0px 0px 10px 0px;
 }
 
 .service {
@@ -28,6 +28,8 @@ section {
 .service:hover .image-service { 
     border-color: gold;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    transform: scale(1.05);
+
 }
 
 .description {
